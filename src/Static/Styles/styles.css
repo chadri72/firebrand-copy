@@ -50,7 +50,7 @@ li {font-size:1.0rem;}
 
 img.logo {width:300px; margin: 20px auto 50px; padding:20px;}
 .logo {width:100%; margin: 50px 0 0 0px;}
-.home-hero {padding-left:50px; text-align:center;max-height:800px;}
+.home-hero {padding-left:15px; text-align:center;max-height:750px;}
 div.teal-button {margin: 40px auto 10px;}
 div.revolution-hide {display:inline;width:100%;}
 div.revolution-hide h1 {text-align:center;font-size:4.5rem;margin-top:30px;}
@@ -82,6 +82,9 @@ div.intro {color:#EAEBD4;background-color:var(--blue);margin:20px -100px 20px -1
 .panes-list li {font-size:1rem;}
 .careers p {font-size:1.3rem; padding:20px 0px;}
 
+.services {background-color:var(--cream)!important;padding:5% 5% 2%;}
+.services-panes {background-color:white; border-radius:15px;}
+
 .careers-list li {color:white; font-weight: 600; font-family:'Stolzl-Light'; font-size:1.1rem; padding: 10px 0px;}
 div.footer h4 {font-size:1.0rem; color:white; font-weight:700;padding:20px 0px 10px 0px; text-align:center;}
 div.footer h5 {font-size:0.9rem; color:white; font-weight:500;padding:5px 0px 10px 0px; text-align:center;}
@@ -98,7 +101,7 @@ p {font-size:1rem; line-height:140%;}
 li {font-size:1.1rem;}
 
 img.logo {width:300px; margin: 20px auto; padding:0px;}
-.home-hero {max-height:100%;text-align:left;}
+.home-hero {max-height:100%;text-align:left;padding-left:50px;}
 div.teal-button {margin: 25px 0 0px;}
 div.revolution-hide {display:none;}
 div.revolution {display: inline; margin-top:150px; width:100%;}
@@ -110,6 +113,7 @@ p.intro {text-align:left;}
 div.intro {border-radius:5px;margin:20px -60px 20px -150px; padding:40px 60px 40px 150px;}
 
 .change {padding: 60px 60px 60px 15%; text-align:center; }
+.services {margin:0 0%;}
 
 .founders {margin: 3% 15% 0%; text-align:left;}
 .founder-pane {padding:40px;}
@@ -125,7 +129,7 @@ h3 {font-size:2.0rem;}
 h4 {font-size:1.5rem;}
 h5 {font-size:1.5rem; line-height:140%;}
 h6 {font-size:1.35rem; line-height:140%;}
-p {font-size:1.5rem; line-height:140%;}
+p {font-size:1.25rem; line-height:140%;}
 li {font-size:1.35rem;}
 
 .home-hero {padding-left:0px; }
@@ -141,8 +145,8 @@ li {font-size:1.35rem;}
 .founder-pane {padding:40px;}
 .who {padding: 25px 150px;}
 .services-section {padding:40px 0;}
-.services {background-color:var(--cream)!important; border-radius:15px;padding:5% 5% 2%;}
-.services-panes {background-color:white; border-radius:15px; border: 0px solid black;}
+.services {border-radius:15px;padding:4% 5% 2%; margin:0 8%;}
+
 .services-panes h3{font-family:'Elza-Narrow-Medium'; color:var(--rust);}
 .services-panes h5{font-weight:500; font-size:1.25rem; font-family:'Roboto'; color:black;}
 .services-list {padding: 0 0 0 40px;}
