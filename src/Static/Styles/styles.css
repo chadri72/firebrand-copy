@@ -38,6 +38,10 @@ font-family: Stolzl-Light;
 src: url('../Fonts/Stolzl-Light.ttf');}
 
 
+/**************************************************/
+/**************************************************/
+
+
 @media (min-width: 0px) {
 h1 {font-size:4rem;text-align:center;}
 h2 {font-size:2.5rem;}
@@ -75,19 +79,30 @@ div.intro {color:#EAEBD4;background-color:var(--blue);margin:20px -100px 20px -1
 .founder-pane p {font-size:1.0rem; line-height: 150%; font-weight:600;}
 .founder-pane h3{margin-top:10px; font-family:'Elza-Narrow-Medium';}
 .founder-pane {padding:10px;}
-.hidden-sogn1 {display:none;}
-.hidden-sogn2 {display:inline;}
+.hidden-woo1 {display:none;}
+.hidden-woo2 {display:inline;}
 .panes p {font-size:1.1rem;}
 .panes-list h4{text-decoration:underline;font-weight:700; font-size:1.2rem;}
 .panes-list li {font-size:1rem;}
-.careers p {font-size:1.3rem; padding:20px 0px;}
 
 .services {background-color:var(--cream)!important;padding:5% 5% 2%;}
 .services-panes {background-color:white; border-radius:15px;}
 
+.partner {padding:4% 5% 2%; margin:0 8%;}
+.partner img {width: 70%; display:block; margin: 0 auto;}
+.partner-pane {height:200px;}
+
+.careers h2 {text-align:center;}
+.careers p {font-size:1.3rem; padding:20px 0px;text-align:center;}
+
+.careers-list {padding: 40px 60px 0px;}
+
 .careers-list li {color:white; font-weight: 600; font-family:'Stolzl-Light'; font-size:1.1rem; padding: 10px 0px;}
+.careers-list a {text-decoration:none;}
+
 div.footer h4 {font-size:1.0rem; color:white; font-weight:700;padding:20px 0px 10px 0px; text-align:center;}
 div.footer h5 {font-size:0.9rem; color:white; font-weight:500;padding:5px 0px 10px 0px; text-align:center;}
+.footer img {width:100%; display: block; margin: 20px auto 0;}
 }
 
 @media (min-width:768px) {
@@ -100,7 +115,7 @@ h6 {font-size:1rem;}
 p {font-size:1rem; line-height:140%;}
 li {font-size:1.1rem;}
 
-img.logo {width:300px; margin: 20px auto; padding:0px;}
+img.logo {width:225px; margin: 20px auto; padding:0px;}
 .home-hero {max-height:100%;text-align:left;padding-left:50px;}
 div.teal-button {margin: 25px 0 0px;}
 div.revolution-hide {display:none;}
@@ -115,11 +130,24 @@ div.intro {border-radius:5px;margin:20px -60px 20px -150px; padding:40px 60px 40
 .change {padding: 60px 60px 60px 15%; text-align:center; }
 .services {margin:0 0%;}
 
+.partner {padding:4% 0% 2%; margin:0 8%;}
+.partner-pane {height:150px;}
+.partner img {width: 70%;}	
+
+
 .founders {margin: 3% 15% 0%; text-align:left;}
 .founder-pane {padding:40px;}
 .founder-pane h3{margin-top:50px; font-family:'Elza-Narrow-Medium';}
-.hidden-sogn1 {display:inline;}
-.hidden-sogn2 {display:none;}
+.hidden-woo1 {display:inline;}
+.hidden-woo2 {display:none;}
+
+.careers-list {padding: 40px 20px 0px;}
+.careers h2 {text-align:left;}
+.careers p {text-align:left;}
+
+div.footer h4 {text-align:left;}
+div.footer h5 {text-align:left;}
+.footer img {margin: 0}
 }
 
 @media (min-width:1200px) {
@@ -142,10 +170,13 @@ li {font-size:1.35rem;}
 .revolution {margin-top: 250px; max-width:750px; z-index:49;}
 .learn {width:100%;padding: 1% 25%;}
 .founders {margin: 3% 10% 0%; text-align:left; padding-bottom:30px;}
-.founder-pane {padding:40px;}
+.founder-pane {padding:20px 40px;}
 .who {padding: 25px 150px;}
 .services-section {padding:40px 0;}
 .services {border-radius:15px;padding:4% 5% 2%; margin:0 8%;}
+.partner {border-radius:15px;padding:4% 5% 3%; margin:0 8%;}
+.partner-pane {height:250px;}
+.partner img {padding: 40px 0px; width:80%;}	
 .services h3 {font-size:1.85rem;}
 .services-panes h3{font-family:'Elza-Narrow-Medium'; color:var(--rust);}
 .services-panes h5{font-weight:500; font-size:1.25rem; font-family:'Roboto'; color:black;}
@@ -171,7 +202,7 @@ body {
 }
 
 
-.container {max-width: 1500px;background-color:white;}
+.container {max-width: 1600px;background-color:white;}
 .row {margin:0px; padding: 0px 8%;}
 
 
@@ -184,7 +215,7 @@ div.home-hero {
 
 
 div.founder-pane h4{font-family:'Elza-Narrow-Medium';}
-div.founder-pane img {width: 100%; border-radius:5px;opacity:80%;}
+div.founder-pane img {width: 100%; border-radius:5px;opacity:100%;}
 div.learn h2 {font-family:'Elza-Narrow-Medium';}
 
 div.teal-button {
@@ -229,10 +260,3 @@ div.panes li {
 	text-align: left;
 }
 
-div.founder-image img{
-	border-radius:5px;
-	width:100%;
-	max-width:350px;
-	height:auto;
-
-}
