@@ -107,8 +107,8 @@ div.intro {color:#EAEBD4;background-color:var(--blue);margin:20px -100px 20px -1
 .careers-list li {color:white; font-weight: 400; font-size:1.0rem; padding: 10px 0px;}
 .careers-list a {text-decoration:none;}
 
-div.footer h4 {font-size:1.0rem; color:white; font-weight:700;padding:20px 0px 10px 0px; text-align:center;}
-div.footer h5 {font-size:0.9rem; color:white; font-weight:500;padding:5px 0px 10px 0px; text-align:center;}
+.footer h4 {font-size:1.0rem; color:white; font-weight:700;padding:20px 0px 10px 0px; text-align:center;}
+.footer h5 {font-size:0.9rem; color:white; font-weight:500;padding:5px 0px 10px 0px; text-align:center;}
 .footer img {width:100%; display: block; margin: 20px auto 0;}
 .copyright p{text-align:center;padding: 30px 0% 30px;color:var(--cream);font-size:0.8rem; margin: 20px auto 0;}
 }
@@ -176,14 +176,16 @@ div.intro {border-radius:5px;margin:20px -60px 20px -150px; padding:40px 60px 40
 .hidden-woo1 {display:inline;}
 .hidden-woo2 {display:none;}
 
+.careers {padding:20px 00px !important;}
 .careers-list {padding: 40px 0px 20px 40px;}
 .careers h2 {text-align:left;}
 .careers p {text-align:left;}
 .careers ul {padding-inline-start: 50px;}
 .careers-list li {font-size:1.1rem;}
 
-div.footer h4 {text-align:left;}
-div.footer h5 {text-align:left;}
+.foot {padding:0px 0px;}
+.footer h4 {text-align:left;}
+.footer h5 {text-align:left;}
 .footer img {margin: 0}
 .copyright {text-align:left;}
 }
