@@ -36,7 +36,7 @@ src: url('../Fonts/SF-Pro-Display-Bold.otf');}
 
 
 @media (min-width: 0px) {
-h1 {font-family:'Elza-Narrow-Medium';font-size:5rem;text-align:left;font-weight: 400; line-height:100%; letter-spacing:-0.02em;}
+h1 {font-family:'SF-Pro-Bold';font-size:5rem;text-align:left;line-height:100%; letter-spacing:-0.02em;}
 h2 {font-size:2.5rem; font-family:'elza-narrow',sans serif; font-weight:500;}
 h3 {font-size:1.4rem; font-family:'elza-narrow',sans serif; font-weight:500;}
 h4 {font-size:1.3rem; font-family:'SF-Pro-Regular';}
@@ -45,6 +45,7 @@ h6 {font-size:1.2rem;}
 p {font-size:1.2rem; line-height:140%;}
 li {font-size:1.0rem;}
 
+.container {min-width:600px;}
 h1.the {padding:25px 10px 0px 0px;color:var(--graphite);}
 .ai {margin-top:15px;margin-bottom: 0px; padding:10px 30px 0px 0px;}
 .hero-image {width:100%; height:100%; overflow: hidden; display:block; margin:-3% auto auto 0%;}
@@ -70,7 +71,7 @@ div.intro {color:#EAEBD4;background-color:var(--blue);margin:20px -100px 20px -1
 
 .work {padding: 0 40px;}
 .action {padding:30px 0px;}
-.action img {position:absolute; top:5%; right:5%; width:10%;}
+.action img {position:absolute; top:5%; right:5%; width:7%;}
 
 .learn {text-align:center;}
 
@@ -85,7 +86,7 @@ div.intro {color:#EAEBD4;background-color:var(--blue);margin:20px -100px 20px -1
 
 
 .services {background-color:var(--cream)!important;padding: 5% 5%;max-width:100%;border-radius:10px;}
-.services-section {margin:0px auto;}
+.services-section {margin:0px auto; width:95%;}
 .services-panes {background-color:white; border-radius:15px;padding:20px 30px 10px 20px !important;margin-bottom:30px !important;}
 .services-number {min-height:70px;}
 .services-number h3 {width:12%; float: left; background-color:var(--rust); border-radius:8px; width:50px; height:50px; padding:10px 0px 0px 10px;font-size:48px; color:white !important;}
@@ -103,7 +104,7 @@ div.intro {color:#EAEBD4;background-color:var(--blue);margin:20px -100px 20px -1
 .careers p {font-size:1.3rem; padding:20px 0px;}
 .careers ul {padding-inline-start: 20px;}
 .careers-list {padding: 40px 20px 0px 0px;}
-.careers-list li {color:white; font-weight: 400; font-size:1.3rem; padding: 10px 0px;}
+.careers-list li {color:white; font-weight: 400; font-size:1.0rem; padding: 10px 0px;}
 .careers-list a {text-decoration:none;}
 
 div.footer h4 {font-size:1.0rem; color:white; font-weight:700;padding:20px 0px 10px 0px; text-align:center;}
@@ -119,10 +120,11 @@ h3 {font-size:1.5rem;}
 h4 {font-size:1.3rem;}
 h5 {font-size:1.0rem; line-height:130%;}
 h6 {font-size:1rem;}
-p {font-size:1rem; line-height:140%;}
+p {font-size:1.2rem; line-height:140%;}
 li {font-size:1.1rem;}
 
-.learn {text-align:right;padding-left:0px;}
+.container {min-width:95%;}
+.learn {text-align:right;padding-left:0px;width:300px;}
 
 .hero {min-height:800px;}
 
@@ -131,15 +133,17 @@ h1.the {padding:20px 15px 0px 0px;}
 .ai h1 {line-height:100%}
 img.logo {width:225px; margin: 20px auto; padding:0px;}
 .home-hero {max-height:100%;text-align:left;padding-left:50px;}
-.impact {margin-top:20px;margin-bottom:0px;}
+.impact {margin-top:20px;margin-bottom:20px;}
 
 .action {padding:30px;}
 .action img {width:15%;}
 .action h3 {width:70%;}
 
-div.teal-button {margin: 25px 0 0px;}
 
-.revolution {display: inline; margin-top:60px; width:100%;}
+
+div.teal-button {margin: 25px 0 0px; font-size:1.3rem;}
+
+.revolution {display: inline; margin-top:100px; margin-bottom:20px; width:100%;}
 
 
 .hero-image {height:100%; overflow: hidden;}
@@ -157,6 +161,11 @@ div.intro {border-radius:5px;margin:20px -60px 20px -150px; padding:40px 60px 40
 .partner img {width: 70%;}	
 .services h3 {text-align:left;}
 
+.approach {min-width:55%;float:left;}
+.services-list {width:100px; float:right;}
+
+.services-section {margin:0px auto; width:100%;}
+
 .services-number h3 {width:8%; float: left; background-color:var(--rust); border-radius:8px; width:50px; height:50px; padding:10px 0px 0px 10px;font-size:48px; color:white !important;}
 .services-number h4 {width: 90%; float:right;margin-top:0px;font-weight:500; padding:10px 10px 0px 0px; margin-bottom:0px;}
 
@@ -171,6 +180,7 @@ div.intro {border-radius:5px;margin:20px -60px 20px -150px; padding:40px 60px 40
 .careers h2 {text-align:left;}
 .careers p {text-align:left;}
 .careers ul {padding-inline-start: 50px;}
+.careers-list li {font-size:1.1rem;}
 
 div.footer h4 {text-align:left;}
 div.footer h5 {text-align:left;}
@@ -188,6 +198,7 @@ h6 {font-size:1.35rem; line-height:140%;}
 p {font-size:1.3rem; line-height:140%;}
 li {font-size:1.35rem;}
 
+.container {min-width:90%;}
 h1.the {padding:25px 20px 0px 0px;}
 .ai {margin-top:0px;padding:40px 50px 0px 0px;}
 .ai h1 {line-height:70%}
@@ -219,6 +230,9 @@ div.teal-button {font-size:1.5rem; width:240px;}
 .services-panes h5{font-weight:500; font-size:1.25rem; color:black;}
 .services-list {padding: 0 0 0 40px;}
 .services-list li {font-family:'Roboto'; font-size:1.15rem;}
+
+.careers-list li {font-size:1.3rem;}
+
 }
 
 @media (min-width:1400px) {
@@ -227,7 +241,7 @@ h1.the {padding:30px 20px 0px 0px;}
 .hero {max-height:1200px;}
 .impact {margin-top:50px;margin-bottom:50px;}
 .revolution {display: inline; margin-top:150px; width:100%;}
-.container {max-width:1320px;}
+.container {max-width:1320px;min-width:50%;}
 .hero-image {width:100%; height:100%; overflow: hidden; display:block; margin:-7% auto 0;}
 .ai {margin-top:16px;padding:35px 50px 0px 0px;}
 }
