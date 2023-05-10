@@ -3,23 +3,9 @@
 	--blue: #132034;
 	--teal: #12627B;
 	--cream: #F5F5EC;
+	--graphite: #0C1111;
 }
 
-@font-face{
-font-family: impact;
-src: url('../Fonts/impact.ttf');}
-
-@font-face{
-font-family: Roboto-Regular;
-src: url('../Fonts/Roboto-Regular.ttf');}
-
-@font-face{
-font-family: Roboto-Light;
-src: url('../Fonts/Roboto-Light.ttf');}
-
-@font-face{
-font-family: Roboto-Bold;
-src: url('../Fonts/Roboto-Bold.ttf');}
 
 @font-face{
 font-family: Elza-Narrow-Semi;
@@ -29,30 +15,42 @@ src: url('../Fonts/ElzaTrial-NarrowSemibold.otf');}
 font-family: Elza-Narrow-Medium;
 src: url('../Fonts/ElzaTrial-NarrowMedium.otf');}
 
-@font-face{
-font-family: Stolzl-Regular;
-src: url('../Fonts/Stolzl-Regular.otf');}
 
 @font-face{
-font-family: Stolzl-Light;
-src: url('../Fonts/Stolzl-Light.ttf');}
+font-family: SF-Pro-Light;
+src: url('../Fonts/SF-Pro-Display-Light.otf');}
 
+@font-face{
+font-family: SF-Pro-Regular;
+src: url('../Fonts/SF-Pro-Display-Regular.otf');}
+
+@font-face{
+font-family: SF-Pro-Medium;
+src: url('../Fonts/SF-Pro-Display-Medium.otf');}
+
+@font-face{
+font-family: SF-Pro-Bold;
+src: url('../Fonts/SF-Pro-Display-Bold.otf');}
 
 /**************************************************/
 /**************************************************/
 
 
 @media (min-width: 0px) {
-h1 {font-size:4rem;text-align:center;}
-h2 {font-size:2.5rem;}
-h3 {font-size:1.4rem;}
-h4 {font-size:1.3rem;}
-h5 {font-size:1.1rem; line-height:130%;}
+h1 {font-family:'Elza-Narrow-Semi';font-size:3.5rem;text-align:left;font-weight: 700; line-height:100%; letter-spacing:-0.02em;}
+h2 {font-size:2.5rem; font-family:'elza-narrow',sans serif; font-weight:500;}
+h3 {font-size:1.4rem; font-family:'elza-narrow',sans serif; font-weight:500;}
+h4 {font-size:1.3rem; font-family:'SF-Pro-Regular';}
+h5 {font-size:1.1rem; font-family:'SF-Pro-Regular'; line-height:130%;}
 h6 {font-size:1.2rem;}
 p {font-size:1.2rem; line-height:140%;}
 li {font-size:1.0rem;}
 
-img.logo {width:300px; margin: 20px auto 50px; padding:20px;}
+h1.the {padding:25px 20px 0px 0px;color:var(--graphite);}
+.ai {margin-top:0px;margin-bottom: 0px; padding:20px 50px 0px 0px;}
+.hero-image {width:100%; height:100%; overflow: hidden; display:block; margin:-3% auto auto 0%;}
+
+.logo img {width:250px; margin: 20px auto 50px; padding:0px;}
 .logo {width:100%; margin: 50px 0 0 0px;}
 .home-hero {padding-left:15px; text-align:center;max-height:750px;}
 div.teal-button {margin: 40px auto 10px;}
@@ -61,9 +59,9 @@ div.revolution-hide h1 {text-align:center;font-size:4.5rem;margin-top:30px;}
 div.revolution {display:none;}
 div.revolution2 {display:none;} 
 
-h6.leadin {color:#CD6C36; font-size:1.25rem; font-weight:600; text-align:center;}
-h2.intro {color:black; font-family:'Elza-Narrow-Medium'; font-weight:400; text-align:center;}
-p.intro {text-align:center;font-size: 1.4rem;font-weight:400; font-family:'Roboto';}
+h6.leadin {font-family: 'SF-Pro-Medium'; text-transform:uppercase; line-height:22px; color:#CD6C36; font-size:22px; font-weight:500; text-align:center; margin-bottom:30px;}
+h2.intro {color:var(--graphite); font-family:'elza-narrow',sans serif; font-weight:500; text-align:center;line-height:110%;}
+p.intro {text-align:center;font-size: 1.6rem;font-weight:400; font-family:'SF-Pro-Regular';}
 div.intro {color:#EAEBD4;background-color:var(--blue);margin:20px -100px 20px -100px;padding:40px 100px 40px 100px;}
 
 .change {padding: 60px 60px 60px 30px; text-align:center;}
@@ -73,11 +71,9 @@ div.intro {color:#EAEBD4;background-color:var(--blue);margin:20px -100px 20px -1
 .firebrand-way {width:100%;margin: 2% 2%;}
 .firebrand-way p{font-size:1.2rem; font-weight:600;}
 
-.learn {width:100%;padding:3% 5%;}
-.who {padding: 25px 0px;}
+
 .founders {margin: 3% 10% 0%; text-align:center;}
-.founder-pane p {font-size:1.0rem; line-height: 150%; font-weight:600;}
-.founder-pane h3{margin-top:10px; font-family:'Elza-Narrow-Medium';}
+
 .founder-pane {padding:10px;}
 .hidden-woo1 {display:none;}
 .hidden-woo2 {display:inline;}
@@ -97,7 +93,7 @@ div.intro {color:#EAEBD4;background-color:var(--blue);margin:20px -100px 20px -1
 
 .careers-list {padding: 40px 60px 0px;}
 
-.careers-list li {color:white; font-weight: 600; font-family:'Stolzl-Light'; font-size:1.1rem; padding: 10px 0px;}
+.careers-list li {color:white; font-weight: 400; font-size:1.3rem; padding: 10px 0px;}
 .careers-list a {text-decoration:none;}
 
 div.footer h4 {font-size:1.0rem; color:white; font-weight:700;padding:20px 0px 10px 0px; text-align:center;}
@@ -106,7 +102,7 @@ div.footer h5 {font-size:0.9rem; color:white; font-weight:500;padding:5px 0px 10
 }
 
 @media (min-width:768px) {
-h1 {font-size:6rem;text-align:left; line-height:110%;}
+h1 {font-size:5rem;}
 h2 {font-size:2.0rem;}
 h3 {font-size:1.5rem;}
 h4 {font-size:1.3rem;}
@@ -115,14 +111,21 @@ h6 {font-size:1rem;}
 p {font-size:1rem; line-height:140%;}
 li {font-size:1.1rem;}
 
+
+
+h1.the {padding:20px 15px 0px 0px;}
+.ai {margin-top:0px;padding:20px 40px 0px 0px;}
+.ai h1 {line-height:100%}
 img.logo {width:225px; margin: 20px auto; padding:0px;}
 .home-hero {max-height:100%;text-align:left;padding-left:50px;}
 div.teal-button {margin: 25px 0 0px;}
 div.revolution-hide {display:none;}
-div.revolution {display: inline; margin-top:150px; width:100%;}
+div.revolution {display: inline; margin-top:100px; width:100%;}
 div.revolution2 {display:inline;}
 
-h6.leadin {color:#CD6C36; font-size:1.25rem; font-weight:600; text-align:left;}
+.hero-image {width:100%; height:100%; overflow: hidden; display:block; margin:-3% auto auto 0;}
+
+h6.leadin {text-align:left;}
 h2.intro {text-align:left;}
 p.intro {text-align:left;}
 div.intro {border-radius:5px;margin:20px -60px 20px -150px; padding:40px 60px 40px 150px;}
@@ -133,11 +136,11 @@ div.intro {border-radius:5px;margin:20px -60px 20px -150px; padding:40px 60px 40
 .partner {padding:4% 0% 2%; margin:0 8%;}
 .partner-pane {height:150px;}
 .partner img {width: 70%;}	
-
+.services h3 {text-align:left;}
 
 .founders {margin: 3% 15% 0%; text-align:left;}
 .founder-pane {padding:40px;}
-.founder-pane h3{margin-top:50px; font-family:'Elza-Narrow-Medium';}
+.founder-pane h3 {margin-top:60px; font-family:'Elza-Narrow-Medium';}
 .hidden-woo1 {display:inline;}
 .hidden-woo2 {display:none;}
 
@@ -151,16 +154,22 @@ div.footer h5 {text-align:left;}
 }
 
 @media (min-width:1200px) {
-h1 {font-size:7.5rem;text-align:left;line-height:100%;}
-h2 {font-size:3.0rem;}
-h3 {font-size:2.0rem;}
-h4 {font-size:1.5rem;}
+h1 {font-size:6.0rem;}
+h2 {font-size:4.0rem;}
+h3 {font-size:2.4rem;}
+h4 {font-size:1.7rem;}
 h5 {font-size:1.5rem; line-height:140%;}
 h6 {font-size:1.35rem; line-height:140%;}
-p {font-size:1.25rem; line-height:140%;}
+p {font-size:1.3rem; line-height:140%;}
 li {font-size:1.35rem;}
 
-.home-hero {padding-left:0px; }
+h1.the {padding:30px 20px 0px 0px;}
+.ai {margin-top:0px;padding:40px 50px 0px 0px;}
+.ai h1 {line-height:70%}
+.hero {min-height:900px;}
+.hero-image {width:100%; height:100%; overflow: hidden; display:block; margin:-3% auto -10%;}
+
+.revolution {display: inline; margin-top:60px; width:100%;}
 .revolution2 {display:inline;}
 
 .change {padding:5% 5% 5% 5%; text-align:left; line-height:150%; max-width:800px;}
@@ -170,93 +179,69 @@ li {font-size:1.35rem;}
 .revolution {margin-top: 250px; max-width:750px; z-index:49;}
 .learn {width:100%;padding: 1% 25%;}
 .founders {margin: 3% 10% 0%; text-align:left; padding-bottom:30px;}
-.founder-pane {padding:20px 40px;}
-.who {padding: 25px 150px;}
+.founder-pane {padding:40px;}
+
 .services-section {padding:40px 0;}
-.services {border-radius:15px;padding:4% 5% 2%; margin:0 8%;}
-.partner {border-radius:15px;padding:4% 5% 3%; margin:0 8%;}
+.services {border-radius:15px;padding:4% 5% 2%; margin:0 0;}
+.partner {border-radius:15px;padding:4% 0% 3%; margin:0 8%;}
 .partner-pane {height:250px;}
 .partner img {padding: 40px 0px; width:80%;}	
-.services h3 {font-size:1.85rem;}
-.services-panes h3{font-family:'Elza-Narrow-Medium'; color:var(--rust);}
-.services-panes h5{font-weight:500; font-size:1.25rem; font-family:'Roboto'; color:black;}
+.services-panes h3{color:var(--rust);}
+.services-panes h5{font-weight:500; font-size:1.25rem; color:black;}
 .services-list {padding: 0 0 0 40px;}
 .services-list li {font-family:'Roboto'; font-size:1.15rem;}
 }
 
-
-
-body, html {
-    height: 100%;
-	background-color:none;
-	font-family: 'Stolzl-Light';
-	font-weight: 500;
+@media (min-width:1400px) {
+h1 {font-family:'Elza-Narrow-Semi';font-size:6.5rem;text-align:left;font-weight: 700; line-height:100%; letter-spacing:-0.02em;}
+.hero {max-height:1200px;}
+.container {max-width:1320px;}
+.hero-image {width:100%; height:100%; overflow: hidden; display:block; margin:-7% auto 0;}
+.ai {margin-top:16px;padding:35px 50px 0px 0px;}
 }
 
-body {
-  background-color:black;
-  /*background-image: url('../Images/circuit-background.jpg');*/
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size:cover;
+@media (min-width:1750px) {
+h1 {font-family:'Elza-Narrow-Semi';font-size:8.5rem;text-align:left;font-weight: 700; line-height:100%; letter-spacing:-0.02em;}
+
+.hero-image {margin:-12% auto 0;}
+.revolution {display: inline; margin-top:150px; width:100%;}
 }
 
 
-.container {max-width: 1500px;background-color:white;}
-.row {margin:0px; padding: 0px 8%;}
+body {background-color:white;}
+body, html {font-family: 'SF-Pro-Regular';}
+
+.row {margin:0px; padding: 0px 0%;}
 
 
 div.home-hero {
-	background-image: url('../Images/Tunnel-Walkway.jpg');
+	background-image: url('../Images/light-at-the-tunnel.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	height:1100px;
 }
 
 
 div.founder-pane h4{font-family:'Elza-Narrow-Medium';}
-div.founder-pane img {width: 100%; border-radius:5px;opacity:100%;}
-div.learn h2 {font-family:'Elza-Narrow-Medium';}
+div.founder-pane img {width: 100%; border-radius:8px;opacity:100%;}
+
 
 div.teal-button {
+	font-family:'SF-Pro-Regular';
 	background-color:var(--teal);
-	font-weight:600;
+	font-weight:500;
 	padding: 12px 10px;
 	text-align:center;
 	color: #fff;
-	height: 45px;
+	height: 50px;
 	width:200px;
 	border-radius:4px;
-
-}
-
-
-div.panes h2 {
-	margin: 25px 0px 15px;
-	font-weight:600;
 	letter-spacing: 1px;
+
 }
 
-div.panes h3 {
-	font-weight:600;
-	padding:5px 0px;
-	font-family:'Roboto-Regular';
+.vertical-center {
+  margin: 0;
+  top: 20%;
+  -ms-transform: translateY(-20%);
+  transform: translateY(-20%);
 }
-
-
-div.panes h4 {
-
-	text-align: left;
-	line-height:140%;
-}
-
-div.panes h6 {
-	font-weight:400;
-	text-align: left;
-	line-height:140%;
-}
-
-div.panes li {
-	text-align: left;
-}
-
