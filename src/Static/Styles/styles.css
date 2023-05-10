@@ -37,7 +37,7 @@ src: url('../Fonts/SF-Pro-Display-Bold.otf');}
 
 
 @media (min-width: 0px) {
-h1 {font-family:'Elza-Narrow-Semi';font-size:3.5rem;text-align:left;font-weight: 700; line-height:100%; letter-spacing:-0.02em;}
+h1 {font-family:'Elza-Narrow-Semi';font-size:5rem;text-align:left;font-weight: 500; line-height:100%; letter-spacing:-0.02em;}
 h2 {font-size:2.5rem; font-family:'elza-narrow',sans serif; font-weight:500;}
 h3 {font-size:1.4rem; font-family:'elza-narrow',sans serif; font-weight:500;}
 h4 {font-size:1.3rem; font-family:'SF-Pro-Regular';}
@@ -49,28 +49,31 @@ li {font-size:1.0rem;}
 h1.the {padding:25px 10px 0px 0px;color:var(--graphite);}
 .ai {margin-top:15px;margin-bottom: 0px; padding:10px 30px 0px 0px;}
 .hero-image {width:100%; height:100%; overflow: hidden; display:block; margin:-3% auto auto 0%;}
-.impact {margin-top:10px;margin-bottom:10px;}
+.impact {margin-top:10px;margin-bottom:10px; width:95%;}
 
 .logo img {width:250px; margin: 20px auto 50px; padding:0px;}
 .logo {width:100%; margin: 50px 0 0 0px;}
 .home-hero {padding-left:15px; text-align:center;max-height:750px;}
 div.teal-button {margin: 40px auto 10px; width:200px;}
 
-.revolution {margin-top:30px;}
+.revolution {margin-top:50px;}
 
 
-h6.leadin {font-family: 'SF-Pro-Medium'; text-transform:uppercase; line-height:22px; color:#CD6C36; font-size:22px; font-weight:500; text-align:center; margin-bottom:30px;}
-h2.intro {color:var(--graphite); font-family:'elza-narrow',sans serif; font-weight:500; text-align:center;line-height:110%;}
-p.intro {text-align:center;font-size: 1.6rem;font-weight:400; font-family:'SF-Pro-Regular';}
+h6.leadin {font-family: 'SF-Pro-Medium'; text-transform:uppercase; line-height:22px; color:#CD6C36; font-size:22px; font-weight:500; margin-bottom:30px;}
+h2.intro {color:var(--graphite); font-family:'elza-narrow',sans serif; font-weight:500; line-height:110%;}
+p.intro {font-size: 1.6rem;font-weight:400; font-family:'SF-Pro-Regular';}
 div.intro {color:#EAEBD4;background-color:var(--blue);margin:20px -100px 20px -100px;padding:40px 100px 40px 100px;}
 
 .change {padding: 60px 60px 60px 30px; text-align:center;}
 .change h2 {font-family:'Elza-Narrow-Semi';font-size:2.8rem;}
 .change p {font-family:'Stolzl-Regular'; font-size:1.4rem;}
 .change-img {display:none;}
-.firebrand-way {width:100%;margin: 2% 2%;}
-.firebrand-way p{font-size:1.2rem; font-weight:600;}
 
+.work {padding: 0 40px;}
+.action {padding:30px 0px;}
+.action img {position:absolute; top:5%; right:5%; width:10%;}
+
+.learn {text-align:center;}
 
 .founders {margin: 3% 10% 0%; text-align:center;}
 
@@ -81,18 +84,25 @@ div.intro {color:#EAEBD4;background-color:var(--blue);margin:20px -100px 20px -1
 .panes-list h4{text-decoration:underline;font-weight:700; font-size:1.2rem;}
 .panes-list li {font-size:1rem;}
 
-.services {background-color:var(--cream)!important;padding:5% 5% 2%;}
-.services-panes {background-color:white; border-radius:15px;}
 
-.partner {padding:4% 5% 2%; margin:0 8%;}
+.services {background-color:var(--cream)!important;padding: 5% 5%;max-width:100%;border-radius:10px;}
+.services-section {margin:0px auto;}
+.services-panes {background-color:white; border-radius:15px;padding:20px 30px 10px 20px !important;margin-bottom:30px !important;}
+.services-number {min-height:70px;}
+.services-number h3 {width:12%; float: left; background-color:var(--rust); border-radius:8px; width:50px; height:50px; padding:10px 0px 0px 10px;font-size:48px; color:white !important;}
+.services-number h4 {width: 88%; float:right;margin-top:10px;font-weight:500; padding:8px 10px 0px 20px;}
+
+.services-list {padding-left:0px;}
+
+.partner {padding:7% 0% 2%; margin:0 8%;}
 .partner img {width: 70%; display:block; margin: 0 auto;}
+
 .partner-pane {height:200px;}
 
-.careers h2 {text-align:center;}
-.careers p {font-size:1.3rem; padding:20px 0px;text-align:center;}
-
-.careers-list {padding: 40px 60px 0px;}
-
+.careers {padding:20px 40px !important;}
+.careers h2 {}
+.careers p {font-size:1.3rem; padding:20px 0px;}
+.careers-list {padding: 40px 20px 0px;}
 .careers-list li {color:white; font-weight: 400; font-size:1.3rem; padding: 10px 0px;}
 .careers-list a {text-decoration:none;}
 
@@ -102,14 +112,16 @@ div.footer h5 {font-size:0.9rem; color:white; font-weight:500;padding:5px 0px 10
 }
 
 @media (min-width:768px) {
-h1 {font-size:5rem;}
+h1 {font-size:5rem;font-weight:600;}
 h2 {font-size:2.0rem;}
 h3 {font-size:1.5rem;}
 h4 {font-size:1.3rem;}
-h5 {font-size:1.0rem; line-height:130%; text-align:left;}
+h5 {font-size:1.0rem; line-height:130%;}
 h6 {font-size:1rem;}
 p {font-size:1rem; line-height:140%;}
 li {font-size:1.1rem;}
+
+.learn {text-align:right;padding-left:0px;}
 
 .hero {min-height:800px;}
 
@@ -120,6 +132,9 @@ img.logo {width:225px; margin: 20px auto; padding:0px;}
 .home-hero {max-height:100%;text-align:left;padding-left:50px;}
 .impact {margin-top:20px;margin-bottom:0px;}
 
+.action {padding:30px;}
+.action img {width:15%;}
+.action h3 {width:70%;}
 
 div.teal-button {margin: 25px 0 0px;}
 
@@ -141,6 +156,10 @@ div.intro {border-radius:5px;margin:20px -60px 20px -150px; padding:40px 60px 40
 .partner img {width: 70%;}	
 .services h3 {text-align:left;}
 
+.services-number h3 {width:8%; float: left; background-color:var(--rust); border-radius:8px; width:50px; height:50px; padding:10px 0px 0px 10px;font-size:48px; color:white !important;}
+.services-number h4 {width: 90%; float:right;margin-top:0px;font-weight:500; padding:10px 10px 0px 0px; margin-bottom:0px;}
+
+
 .founders {margin: 3% 15% 0%; text-align:left;}
 .founder-pane {padding:40px;}
 .founder-pane h3 {margin-top:60px; font-family:'Elza-Narrow-Medium';}
@@ -157,7 +176,7 @@ div.footer h5 {text-align:left;}
 }
 
 @media (min-width:1200px) {
-h1 {font-size:6.0rem;}
+h1 {font-size:6.0rem;font-weight:700;}
 h2 {font-size:4.0rem;}
 h3 {font-size:2.4rem;}
 h4 {font-size:1.7rem;}
@@ -181,11 +200,10 @@ h1.the {padding:25px 20px 0px 0px;}
 .change-img {display:block;}
 .firebrand-way {width:85%;margin: 2% 9% 0%;}
 .revolution {margin-top: 100px; max-width:750px; z-index:49;}
-.learn {width:100%;padding: 1% 25%;}
 .founders {margin: 3% 10% 0%; text-align:left; padding-bottom:30px;}
 .founder-pane {padding:40px;}
 
-div.teal-button {font-size:1.5rem; width:300px;}
+div.teal-button {font-size:1.5rem; width:240px;}
 
 .services-section {padding:40px 0;}
 .services {border-radius:15px;padding:4% 5% 2%; margin:0 0;}
