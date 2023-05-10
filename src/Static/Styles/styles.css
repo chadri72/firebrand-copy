@@ -55,10 +55,9 @@ h1.the {padding:25px 10px 0px 0px;color:var(--graphite);}
 .logo {width:100%; margin: 50px 0 0 0px;}
 .home-hero {padding-left:15px; text-align:center;max-height:750px;}
 div.teal-button {margin: 40px auto 10px; width:200px;}
-div.revolution-hide {display:inline;width:100%;}
-div.revolution-hide h1 {text-align:center;font-size:4.5rem;margin-top:30px;}
-div.revolution {margin-top:30px;}
-div.revolution2 {display:none;} 
+
+.revolution {margin-top:30px;}
+
 
 h6.leadin {font-family: 'SF-Pro-Medium'; text-transform:uppercase; line-height:22px; color:#CD6C36; font-size:22px; font-weight:500; text-align:center; margin-bottom:30px;}
 h2.intro {color:var(--graphite); font-family:'elza-narrow',sans serif; font-weight:500; text-align:center;line-height:110%;}
@@ -123,9 +122,9 @@ img.logo {width:225px; margin: 20px auto; padding:0px;}
 
 
 div.teal-button {margin: 25px 0 0px;}
-div.revolution-hide {display:none;}
-div.revolution {display: inline; margin-top:60px; width:100%;}
-div.revolution2 {display:inline;}
+
+.revolution {display: inline; margin-top:60px; width:100%;}
+
 
 .hero-image {height:100%; overflow: hidden;}
 
@@ -167,7 +166,7 @@ h6 {font-size:1.35rem; line-height:140%;}
 p {font-size:1.3rem; line-height:140%;}
 li {font-size:1.35rem;}
 
-h1.the {padding:35px 20px 0px 0px;}
+h1.the {padding:25px 20px 0px 0px;}
 .ai {margin-top:0px;padding:40px 50px 0px 0px;}
 .ai h1 {line-height:70%}
 .hero {min-height:900px;}
@@ -181,7 +180,7 @@ h1.the {padding:35px 20px 0px 0px;}
 .change-x {display:block;}
 .change-img {display:block;}
 .firebrand-way {width:85%;margin: 2% 9% 0%;}
-.revolution {margin-top: 250px; max-width:750px; z-index:49;}
+.revolution {margin-top: 100px; max-width:750px; z-index:49;}
 .learn {width:100%;padding: 1% 25%;}
 .founders {margin: 3% 10% 0%; text-align:left; padding-bottom:30px;}
 .founder-pane {padding:40px;}
@@ -204,6 +203,7 @@ h1 {font-family:'Elza-Narrow-Semi';font-size:6.5rem;text-align:left;font-weight:
 h1.the {padding:30px 20px 0px 0px;}
 .hero {max-height:1200px;}
 .impact {margin-top:50px;margin-bottom:50px;}
+.revolution {display: inline; margin-top:150px; width:100%;}
 .container {max-width:1320px;}
 .hero-image {width:100%; height:100%; overflow: hidden; display:block; margin:-7% auto 0;}
 .ai {margin-top:16px;padding:35px 50px 0px 0px;}
@@ -213,7 +213,7 @@ h1.the {padding:30px 20px 0px 0px;}
 h1 {font-family:'Elza-Narrow-Semi';font-size:8.5rem;text-align:left;font-weight: 700; line-height:100%; letter-spacing:-0.02em;}
 
 .hero-image {margin:-12% auto 0;}
-.revolution {display: inline; margin-top:150px; width:100%;}
+.revolution {display: inline; margin-top:200px; width:100%;}
 }
 
 
