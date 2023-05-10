@@ -6,15 +6,13 @@
 	--graphite: #0C1111;
 }
 
-
-@font-face{
-font-family: Elza-Narrow-Semi;
-src: url('../Fonts/ElzaTrial-NarrowSemibold.otf');}
-
 @font-face{
 font-family: Elza-Narrow-Medium;
 src: url('../Fonts/ElzaTrial-NarrowMedium.otf');}
 
+@font-face{
+font-family: Elza-Narrow-Semi;
+src: url('../Fonts/ElzaTrial-NarrowSemibold.otf');}
 
 @font-face{
 font-family: SF-Pro-Light;
@@ -32,6 +30,7 @@ src: url('../Fonts/SF-Pro-Display-Medium.otf');}
 font-family: SF-Pro-Bold;
 src: url('../Fonts/SF-Pro-Display-Bold.otf');}
 
+/**************************************************/
 /**************************************************/
 /**************************************************/
 
