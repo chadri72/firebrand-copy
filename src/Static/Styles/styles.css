@@ -46,17 +46,18 @@ h6 {font-size:1.2rem;}
 p {font-size:1.2rem; line-height:140%;}
 li {font-size:1.0rem;}
 
-h1.the {padding:25px 20px 0px 0px;color:var(--graphite);}
-.ai {margin-top:0px;margin-bottom: 0px; padding:20px 50px 0px 0px;}
+h1.the {padding:25px 10px 0px 0px;color:var(--graphite);}
+.ai {margin-top:15px;margin-bottom: 0px; padding:10px 30px 0px 0px;}
 .hero-image {width:100%; height:100%; overflow: hidden; display:block; margin:-3% auto auto 0%;}
+.impact {margin-top:10px;margin-bottom:10px;}
 
 .logo img {width:250px; margin: 20px auto 50px; padding:0px;}
 .logo {width:100%; margin: 50px 0 0 0px;}
 .home-hero {padding-left:15px; text-align:center;max-height:750px;}
-div.teal-button {margin: 40px auto 10px;}
+div.teal-button {margin: 40px auto 10px; width:200px;}
 div.revolution-hide {display:inline;width:100%;}
 div.revolution-hide h1 {text-align:center;font-size:4.5rem;margin-top:30px;}
-div.revolution {display:none;}
+div.revolution {margin-top:30px;}
 div.revolution2 {display:none;} 
 
 h6.leadin {font-family: 'SF-Pro-Medium'; text-transform:uppercase; line-height:22px; color:#CD6C36; font-size:22px; font-weight:500; text-align:center; margin-bottom:30px;}
@@ -111,19 +112,22 @@ h6 {font-size:1rem;}
 p {font-size:1rem; line-height:140%;}
 li {font-size:1.1rem;}
 
-
+.hero {min-height:800px;}
 
 h1.the {padding:20px 15px 0px 0px;}
 .ai {margin-top:0px;padding:20px 40px 0px 0px;}
 .ai h1 {line-height:100%}
 img.logo {width:225px; margin: 20px auto; padding:0px;}
 .home-hero {max-height:100%;text-align:left;padding-left:50px;}
+.impact {margin-top:20px;margin-bottom:0px;}
+
+
 div.teal-button {margin: 25px 0 0px;}
 div.revolution-hide {display:none;}
-div.revolution {display: inline; margin-top:100px; width:100%;}
+div.revolution {display: inline; margin-top:60px; width:100%;}
 div.revolution2 {display:inline;}
 
-.hero-image {width:100%; height:100%; overflow: hidden; display:block; margin:-3% auto auto 0;}
+.hero-image {height:100%; overflow: hidden;}
 
 h6.leadin {text-align:left;}
 h2.intro {text-align:left;}
@@ -163,11 +167,12 @@ h6 {font-size:1.35rem; line-height:140%;}
 p {font-size:1.3rem; line-height:140%;}
 li {font-size:1.35rem;}
 
-h1.the {padding:30px 20px 0px 0px;}
+h1.the {padding:35px 20px 0px 0px;}
 .ai {margin-top:0px;padding:40px 50px 0px 0px;}
 .ai h1 {line-height:70%}
 .hero {min-height:900px;}
 .hero-image {width:100%; height:100%; overflow: hidden; display:block; margin:-3% auto -10%;}
+.impact {margin-top:50px;margin-bottom:25px;}
 
 .revolution {display: inline; margin-top:60px; width:100%;}
 .revolution2 {display:inline;}
@@ -180,6 +185,8 @@ h1.the {padding:30px 20px 0px 0px;}
 .learn {width:100%;padding: 1% 25%;}
 .founders {margin: 3% 10% 0%; text-align:left; padding-bottom:30px;}
 .founder-pane {padding:40px;}
+
+div.teal-button {font-size:1.5rem; width:300px;}
 
 .services-section {padding:40px 0;}
 .services {border-radius:15px;padding:4% 5% 2%; margin:0 0;}
@@ -194,7 +201,9 @@ h1.the {padding:30px 20px 0px 0px;}
 
 @media (min-width:1400px) {
 h1 {font-family:'Elza-Narrow-Semi';font-size:6.5rem;text-align:left;font-weight: 700; line-height:100%; letter-spacing:-0.02em;}
+h1.the {padding:30px 20px 0px 0px;}
 .hero {max-height:1200px;}
+.impact {margin-top:50px;margin-bottom:50px;}
 .container {max-width:1320px;}
 .hero-image {width:100%; height:100%; overflow: hidden; display:block; margin:-7% auto 0;}
 .ai {margin-top:16px;padding:35px 50px 0px 0px;}
@@ -232,9 +241,7 @@ div.teal-button {
 	padding: 12px 10px;
 	text-align:center;
 	color: #fff;
-	height: 50px;
-	width:200px;
-	border-radius:4px;
+	border-radius:5px;
 	letter-spacing: 1px;
 
 }
