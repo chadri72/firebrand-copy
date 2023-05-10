@@ -37,7 +37,7 @@ src: url('../Fonts/SF-Pro-Display-Bold.otf');}
 
 
 @media (min-width: 0px) {
-h1 {font-family:'Elza-Narrow-Semi';font-size:5rem;text-align:left;font-weight: 500; line-height:100%; letter-spacing:-0.02em;}
+h1 {font-family:'Elza-Narrow-Medium';font-size:5rem;text-align:left;font-weight: 400; line-height:100%; letter-spacing:-0.02em;}
 h2 {font-size:2.5rem; font-family:'elza-narrow',sans serif; font-weight:500;}
 h3 {font-size:1.4rem; font-family:'elza-narrow',sans serif; font-weight:500;}
 h4 {font-size:1.3rem; font-family:'SF-Pro-Regular';}
@@ -61,7 +61,7 @@ div.teal-button {margin: 40px auto 10px; width:200px;}
 
 h6.leadin {font-family: 'SF-Pro-Medium'; text-transform:uppercase; line-height:22px; color:#CD6C36; font-size:22px; font-weight:500; margin-bottom:30px;}
 h2.intro {color:var(--graphite); font-family:'elza-narrow',sans serif; font-weight:500; line-height:110%;}
-p.intro {font-size: 1.6rem;font-weight:400; font-family:'SF-Pro-Regular';}
+p.intro {font-size:1.3rem;font-weight:400; font-family:'SF-Pro-Regular';}
 div.intro {color:#EAEBD4;background-color:var(--blue);margin:20px -100px 20px -100px;padding:40px 100px 40px 100px;}
 
 .change {padding: 60px 60px 60px 30px; text-align:center;}
@@ -102,17 +102,19 @@ div.intro {color:#EAEBD4;background-color:var(--blue);margin:20px -100px 20px -1
 .careers {padding:20px 40px !important;}
 .careers h2 {}
 .careers p {font-size:1.3rem; padding:20px 0px;}
-.careers-list {padding: 40px 20px 0px;}
+.careers ul {padding-inline-start: 20px;}
+.careers-list {padding: 40px 20px 0px 0px;}
 .careers-list li {color:white; font-weight: 400; font-size:1.3rem; padding: 10px 0px;}
 .careers-list a {text-decoration:none;}
 
 div.footer h4 {font-size:1.0rem; color:white; font-weight:700;padding:20px 0px 10px 0px; text-align:center;}
 div.footer h5 {font-size:0.9rem; color:white; font-weight:500;padding:5px 0px 10px 0px; text-align:center;}
 .footer img {width:100%; display: block; margin: 20px auto 0;}
+.copyright p{text-align:center;padding: 30px 0% 30px;color:var(--cream);font-size:0.8rem; margin: 20px auto 0;}
 }
 
 @media (min-width:768px) {
-h1 {font-size:5rem;font-weight:600;}
+h1 {font-family:'Elza-Narrow-Semi'; font-size:5rem;font-weight:600;}
 h2 {font-size:2.0rem;}
 h3 {font-size:1.5rem;}
 h4 {font-size:1.3rem;}
@@ -145,7 +147,7 @@ div.teal-button {margin: 25px 0 0px;}
 
 h6.leadin {text-align:left;}
 h2.intro {text-align:left;}
-p.intro {text-align:left;}
+p.intro {text-align:left;font-size:1.4rem;}
 div.intro {border-radius:5px;margin:20px -60px 20px -150px; padding:40px 60px 40px 150px;}
 
 .change {padding: 60px 60px 60px 15%; text-align:center; }
@@ -166,13 +168,15 @@ div.intro {border-radius:5px;margin:20px -60px 20px -150px; padding:40px 60px 40
 .hidden-woo1 {display:inline;}
 .hidden-woo2 {display:none;}
 
-.careers-list {padding: 40px 20px 0px;}
+.careers-list {padding: 40px 0px 20px 40px;}
 .careers h2 {text-align:left;}
 .careers p {text-align:left;}
+.careers ul {padding-inline-start: 50px;}
 
 div.footer h4 {text-align:left;}
 div.footer h5 {text-align:left;}
 .footer img {margin: 0}
+.copyright {text-align:left;}
 }
 
 @media (min-width:1200px) {
@@ -191,6 +195,8 @@ h1.the {padding:25px 20px 0px 0px;}
 .hero {min-height:900px;}
 .hero-image {width:100%; height:100%; overflow: hidden; display:block; margin:-3% auto -10%;}
 .impact {margin-top:50px;margin-bottom:25px;}
+
+p.intro {font-size:1.8rem;}
 
 .revolution {display: inline; margin-top:60px; width:100%;}
 .revolution2 {display:inline;}
