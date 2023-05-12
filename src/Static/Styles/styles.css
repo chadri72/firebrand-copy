@@ -35,6 +35,45 @@ src: url('../Fonts/SF-Pro-Display-Bold.otf');}
 /**************************************************/
 
 
+
+body {background-color:white;}
+body, html {font-family: 'SF-Pro-Regular';}
+
+.row {margin:0px; padding: 0px 0%;}
+
+
+div.home-hero {
+	background-image: url('../Images/light-at-the-tunnel.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div.founder-pane h3 { padding-top:30px;}
+div.founder-pane h4{font-family:'Elza-Narrow-Medium';}
+div.founder-pane img {width: 100%; border-radius:8px;opacity:100%;}
+
+
+div.teal-button {
+	font-family:'SF-Pro-Regular';
+	background-color:var(--teal);
+	font-weight:500;
+	padding: 12px 10px;
+	text-align:center;
+	color: #fff;
+	border-radius:5px;
+	letter-spacing: 1px;
+
+}
+
+.vertical-center {
+  margin: 0;
+  top: 20%;
+  -ms-transform: translateY(-20%);
+  transform: translateY(-20%);
+}
+
+
+
 @media (min-width: 0px) {
 h1 {font-family:'SF-Pro-Bold';font-size:5rem;text-align:left;line-height:100%; letter-spacing:-0.02em;}
 h2 {font-size:2.5rem; font-family:'elza-narrow',sans serif; font-weight:500;}
@@ -46,58 +85,100 @@ p {font-size:1.2rem; line-height:140%;}
 li {font-size:1.0rem;}
 
 .container {min-width:600px;}
+
+/* Header*/
+.hero-container { 
+    background: url("https://clients.strikingidea.com/firebrand/Static/Images/light-at-the-tunnel-overlay.jpg") no-repeat; 
+    background-size: cover;
+    min-height:860px;
+}
+
+/* Top bar*/
+.logo img {width:200px; padding:0px;}
+.logo {width:100%; margin: 40px 0 0 0px;}
+
+
 h1.the {padding:25px 10px 0px 0px;color:var(--graphite);}
 .ai {margin-top:15px;margin-bottom: 0px; padding:10px 30px 0px 0px;}
+.hero {}
 .hero-image {width:100%; height:100%; overflow: hidden; display:block; margin:-3% auto auto 0%;}
-.impact {margin-top:10px;margin-bottom:10px; width:95%;}
 
-.logo img {width:250px; margin: 20px auto 50px; padding:0px;}
-.logo {width:100%; margin: 50px 0 0 0px;}
-.home-hero {padding-left:15px; text-align:center;max-height:750px;}
+.home-hero {padding-left:15px; text-align:center;max-height:550px;}
 div.teal-button {margin: 40px auto 10px; width:200px;}
-
+.impact { margin: 20px 0 }
 .revolution {margin-top:50px;}
 
 
 h6.leadin {font-family: 'SF-Pro-Medium'; text-transform:uppercase; line-height:22px; color:#CD6C36; font-size:22px; font-weight:500; margin-bottom:30px;}
 h2.intro {color:var(--graphite); font-family:'elza-narrow',sans serif; font-weight:500; line-height:110%;}
 p.intro {font-size:1.3rem;font-weight:400; font-family:'SF-Pro-Regular';}
-div.intro {color:#EAEBD4;background-color:var(--blue);margin:20px -100px 20px -100px;padding:40px 100px 40px 100px;}
+div.intro {border-radius:5px;color:#EAEBD4;background-color:var(--blue);margin:40px -0px 0px -100px;padding:40px 50px 40px 100px;}
 
-.change {padding: 60px 60px 60px 30px; text-align:center;}
+.change {
+    margin-left:0px; 
+    z-index:50;
+    padding: 0px; 
+    text-align:center;
+    display:block
+    
+}
+.change img { width:100%}
 .change h2 {font-family:'Elza-Narrow-Semi';font-size:2.8rem;}
 .change p {font-family:'Stolzl-Regular'; font-size:1.4rem;}
 .change-img {display:none;}
 
-.work {padding: 0 40px;}
+.intro-content { padding:50px;}
+
+.work { padding: 6% 0 0;}
 .action {padding:30px 0px;}
 .action img {position:absolute; top:5%; right:5%; width:7%;}
 
-.learn {text-align:center;}
+.learn {text-align:center; padding-top:25px;}
+.learn h4 { margin:0;}
 
-.founders {margin: 3% 10% 0%; text-align:center;}
 
-.founder-pane {padding:10px;}
+/* Founders */
+.who { padding: 6% 8%;}
+.founders {margin: 3% 10%; text-align:center; width:100%;}
+.founder-pane {padding:2%;}
 .hidden-woo1 {display:none;}
 .hidden-woo2 {display:inline;}
+
+
 .panes p {font-size:1.1rem;}
 .panes-list h4{text-decoration:underline;font-weight:700; font-size:1.2rem;}
 .panes-list li {font-size:1rem;}
 
+/* Service List */
 
-.services {background-color:var(--cream)!important;padding: 5% 5%;max-width:100%;border-radius:10px;}
+.services {background-color:var(--cream)!important;padding:6% 8%;max-width:100%;border-radius:10px;}
 .services-section {margin:0px auto; width:95%;}
-.services-panes {background-color:white; border-radius:15px;padding:20px 30px 10px 20px !important;margin-bottom:30px !important;}
-.services-number {min-height:70px;}
-.services-number h3 {width:12%; float: left; background-color:var(--rust); border-radius:8px; width:50px; height:50px; padding:10px 0px 0px 10px;font-size:48px; color:white !important;}
-.services-number h4 {width: 88%; float:right;margin-top:10px;font-weight:500; padding:8px 10px 0px 20px;}
+.services-intro {padding:0 0 30px 0;}
+.row.services-panes {
+    background-color:white; 
+    border-radius:15px;
+    padding:30px;
+    margin-bottom:30px !important;
+}
+.services-number {min-height:70px;  display: flex; width:100%;}
+.services-number h3 { 
+    background-color:var(--rust); 
+    border-radius:8px; 
+    padding:0px 20px 0px 10px; 
+    margin:0 20px 0 0; 
+    max-height: 47px;
+    font-size:48px; 
+    color:white !important;
+    
+}
+.services-number h4 {margin-top:10px;font-weight:500; padding:8px 10px 0px 0px;}
 
 .services-list {padding-left:0px;}
 
-.partner {padding:7% 0% 2%; margin:0 8%;}
+.partner {padding:8%;}
 .partner img {width: 70%; display:block; margin: 0 auto;}
 
-.partner-pane {height:200px;}
+.partner-pane {}
 
 .careers {padding:20px 40px !important;}
 .careers h2 {}
@@ -124,6 +205,7 @@ p {font-size:1.2rem; line-height:140%;}
 li {font-size:1.1rem;}
 
 .container {min-width:95%;}
+
 .learn {text-align:right;padding-left:0px;width:300px;}
 
 .hero {min-height:800px;}
@@ -131,9 +213,7 @@ li {font-size:1.1rem;}
 h1.the {padding:20px 15px 0px 0px;}
 .ai {margin-top:0px;padding:20px 40px 0px 0px;}
 .ai h1 {line-height:100%}
-img.logo {width:225px; margin: 20px auto; padding:0px;}
 .home-hero {max-height:100%;text-align:left;padding-left:50px;}
-.impact {margin-top:20px;margin-bottom:20px;}
 
 .action {padding:30px;}
 .action img {width:15%;}
@@ -148,31 +228,19 @@ div.teal-button {margin: 25px 0 0px; font-size:1.3rem;}
 
 .hero-image {height:100%; overflow: hidden;}
 
-h6.leadin {text-align:left;}
-h2.intro {text-align:left;}
-p.intro {text-align:left;font-size:1.4rem;}
-div.intro {border-radius:5px;margin:20px -60px 20px -150px; padding:40px 60px 40px 150px;}
+p.intro {text-align:left;font-size:1.4rem;
+}
 
-.change {padding: 60px 60px 60px 15%; text-align:center; }
 .services {margin:0 0%;}
-
-.partner {padding:4% 0% 2%; margin:0 8%;}
-.partner-pane {height:150px;}
-.partner img {width: 70%;}	
-.services h3 {text-align:left;}
-
 .approach {min-width:55%;float:left;}
 .services-list {width:100px; float:right;}
 
 .services-section {margin:0px auto; width:100%;}
 
-.services-number h3 {width:8%; float: left; background-color:var(--rust); border-radius:8px; width:50px; height:50px; padding:10px 0px 0px 10px;font-size:48px; color:white !important;}
-.services-number h4 {width: 90%; float:right;margin-top:0px;font-weight:500; padding:10px 10px 0px 0px; margin-bottom:0px;}
+/*.services-number h3 {width:8%; float: left; background-color:var(--rust); border-radius:8px; width:50px; height:50px; padding:10px 0px 0px 10px;font-size:48px; color:white !important;}*/
+.services-number h4 {/*width: 90%; float:right;margin-top:0px;font-weight:500; padding:10px 10px 0px 0px; margin-bottom:0px;*/}
 
 
-.founders {margin: 3% 15% 0%; text-align:left;}
-.founder-pane {padding:40px;}
-.founder-pane h3 {margin-top:60px; font-family:'Elza-Narrow-Medium';}
 .hidden-woo1 {display:inline;}
 .hidden-woo2 {display:none;}
 
@@ -187,7 +255,7 @@ div.intro {border-radius:5px;margin:20px -60px 20px -150px; padding:40px 60px 40
 .footer h4 {text-align:left;}
 .footer h5 {text-align:left;}
 .footer img {margin: 0}
-.copyright {text-align:left;}
+.copyright p{text-align:left;}
 }
 
 @media (min-width:1200px) {
@@ -206,31 +274,21 @@ h1.the {padding:25px 20px 0px 0px;}
 .ai h1 {line-height:70%}
 .hero {min-height:900px;}
 .hero-image {width:100%; height:100%; overflow: hidden; display:block; margin:-3% auto -10%;}
-.impact {margin-top:50px;margin-bottom:25px;}
-
-p.intro {font-size:1.8rem;}
 
 .revolution {display: inline; margin-top:60px; width:100%;}
 .revolution2 {display:inline;}
 
-.change {padding:5% 5% 5% 5%; text-align:left; line-height:150%; max-width:800px;}
-.change-x {display:block;}
-.change-img {display:block;}
+
 .firebrand-way {width:85%;margin: 2% 9% 0%;}
 .revolution {margin-top: 100px; max-width:750px; z-index:49;}
-.founders {margin: 3% 10% 0%; text-align:left; padding-bottom:30px;}
-.founder-pane {padding:40px;}
+
 
 div.teal-button {font-size:1.5rem; width:240px;}
 
 .services-section {padding:40px 0;}
-.services {border-radius:15px;padding:4% 5% 2%; margin:0 0;}
-.partner {border-radius:15px;padding:4% 0% 3%; margin:0 8%;}
-.partner-pane {height:250px;}
-.partner img {padding: 40px 0px; width:80%;}	
 .services-panes h3{color:var(--rust);}
 .services-panes h5{font-weight:500; font-size:1.25rem; color:black;}
-.services-list {padding: 0 0 0 40px;}
+.services-list {/*padding: 0 0 0 40px;*/}
 .services-list li {font-family:'Roboto'; font-size:1.15rem;}
 
 .careers-list li {font-size:1.3rem;}
@@ -241,8 +299,7 @@ div.teal-button {font-size:1.5rem; width:240px;}
 h1 {font-family:'Elza-Narrow-Semi';font-size:6.5rem;text-align:left;font-weight: 700; line-height:100%; letter-spacing:-0.02em;}
 h1.the {padding:30px 20px 0px 0px;}
 .hero {max-height:1200px;}
-.impact {margin-top:50px;margin-bottom:50px;}
-.revolution {display: inline; margin-top:150px; width:100%;}
+.revolution {display: inline; margin-top:100px; width:100%;}
 .container {max-width:1320px;min-width:50%;}
 .hero-image {width:100%; height:100%; overflow: hidden; display:block; margin:-7% auto 0;}
 .ai {margin-top:16px;padding:35px 50px 0px 0px;}
@@ -252,42 +309,8 @@ h1.the {padding:30px 20px 0px 0px;}
 h1 {font-family:'Elza-Narrow-Semi';font-size:8.5rem;text-align:left;font-weight: 700; line-height:100%; letter-spacing:-0.02em;}
 
 .hero-image {margin:-12% auto 0;}
-.revolution {display: inline; margin-top:200px; width:100%;}
+.revolution {display: inline; margin-top:100px; width:100%;}
 }
 
 
-body {background-color:white;}
-body, html {font-family: 'SF-Pro-Regular';}
 
-.row {margin:0px; padding: 0px 0%;}
-
-
-div.home-hero {
-	background-image: url('../Images/light-at-the-tunnel.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-
-div.founder-pane h4{font-family:'Elza-Narrow-Medium';}
-div.founder-pane img {width: 100%; border-radius:8px;opacity:100%;}
-
-
-div.teal-button {
-	font-family:'SF-Pro-Regular';
-	background-color:var(--teal);
-	font-weight:500;
-	padding: 12px 10px;
-	text-align:center;
-	color: #fff;
-	border-radius:5px;
-	letter-spacing: 1px;
-
-}
-
-.vertical-center {
-  margin: 0;
-  top: 20%;
-  -ms-transform: translateY(-20%);
-  transform: translateY(-20%);
-}
